@@ -1,0 +1,57 @@
+.love-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.love-message {
+  color: orangered;
+  font-family: "Courier New", Courier, monospace;
+  z-index: 10;
+}
+
+.love-message h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.love-message p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.heart-bg {
+  position: absolute;
+  top: -50px;
+  width: 15px;
+  height: 15px;
+  background-color: #ff4d6d;
+  transform: rotate(45deg);
+}
+
+.heart-bg::before,
+.heart-bg::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #ff4d6d;
+  border-radius: 50%;
+}
+
+.heart-bg::before {
+  top: -7.5px;
+  left: 0;
+}
+
+.heart-bg::after {
+  left: -7.5px;
+  top: 0;
+}

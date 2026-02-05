@@ -1,0 +1,18 @@
+.music-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 77, 109, 0.15);
+  border: 1px solid #ff4d6d;
+  color: #ff4d6d;
+  font-size: 1.1rem;
+  padding: 10px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000;
+  backdrop-filter: blur(6px);
+}
+
+.music-toggle:hover {
+  background: rgba(255, 77, 109, 0.3);
+}
