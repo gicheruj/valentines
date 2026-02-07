@@ -37,16 +37,19 @@ export default function LoveContent() {
         transition={{ duration: 2, delay: 0.5 }}
       >
         <p>
-          I won't promise a lot,<br /> not the moon, not fireworks. <br />
-          But I do promise to show up. <br />
+          We’ve shared time. <br />
+          Real time. <br />
+          The kind that teaches you who someone is. <br />
           <br />
-          On ordinary days. <br />
-          In small ways. <br />
-          When it’s easy <br />
-          and when it’s not. <br />
+          And after all of it, <br />
+          the good days, <br />
+          the quiet ones, <br />
+          the imperfect moments… <br />
           <br />
-          This is me, <br />
-          choosing you.
+          I still choose you. <br />
+          Not out of habit, <br />
+          but out of love. <br />
+          I looovvveee You. 
         </p>
       </motion.div>
     </div>
