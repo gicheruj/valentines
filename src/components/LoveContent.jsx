@@ -36,21 +36,25 @@ export default function LoveContent() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 2, delay: 0.5 }}
       >
-        <p>
-          We’ve shared time. <br />
-          Real time. <br />
-          The kind that teaches you who someone is. <br />
-          <br />
-          And after all of it, <br />
-          the good days, <br />
-          the quiet ones, <br />
-          the imperfect moments… <br />
-          <br />
-          I still choose you. <br />
-          Not out of habit, <br />
-          but out of love. <br />
-          I looovvveee You. 
-        </p>
+      <p>
+        If love were rain, <br />
+        then you would be my favorite storm. <br />
+        <br />
+        Not the kind that destroys, <br />
+        but the kind that makes the earth breathe again. <br />
+        <br />
+        The kind that makes the air softer, <br />
+        the world quieter, <br />
+        and hearts a little braver. <br />
+        <br />
+        And if loving you means <br />
+        standing in the rain forever… <br />
+        <br />
+        then let the skies open. <br />
+        I’m not running. <br /> <br />
+        Love, <br />
+        John Doe.
+      </p>
       </motion.div>
     </div>
   );

@@ -1,6 +1,6 @@
 import Lottie from "lottie-react";
 import { useEffect } from "react";
-import animationData from "../assets/valentine.json"; // <-- replace with your downloaded Lottie file
+import animationData from "../assets/I love you.json"; // <-- replace with your downloaded Lottie file
 import "./AnimationTransition.css";
 
 export default function AnimationTransition({ onComplete }) {
